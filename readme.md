@@ -12,9 +12,12 @@ We intend for this icon pack to be used with [Ionic](http://ionicframework.com/)
 
 ## Adding to an Ionic 2/3+ project
 
-npm install ionicons-2-legacy <-- coming soon.
+Install Ionicons 2 Legacy:
 
-Add to copy.config.js
+    npm install ionicons-2-legacy
+
+Add to copy.config.js:
+
     copyIonicons2LegacyFonts: {
         src: ['{{ROOT}}/node_modules/ionicons-2-legacy/fonts/**/*'],
         dest: '{{WWW}}/assets/fonts'
@@ -24,8 +27,9 @@ Add to copy.config.js
         dest: '{{BUILD}}'
     }
 
-    Add to index.html:
-      <link href="build/ionicons-2-legacy.css" rel="stylesheet">
+Add to index.html:
+
+    <link href="build/ionicons-2-legacy.css" rel="stylesheet">
 
 
 ## HTML Example
