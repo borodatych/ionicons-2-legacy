@@ -1,0 +1,25 @@
+{
+  "name": "ionicons-2-legacy",
+  "version": "1.0.0",
+  "description": "Use ionicons 2 in Ionic 2/3+ projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyscarim/ionicons-2-legacy.git"
+  },
+  "keywords": [
+    "ionic",
+    "ionicons",
+    "ionicons",
+    "2",
+    "ionicons",
+    "legacy",
+    "ionic",
+    "3"
+  ],
+  "author": "joeyscarim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeyscarim/ionicons-2-legacy/issues"
+  },
+  "homepage": "https://github.com/joeyscarim/ionicons-2-legacy#readme"
+}
