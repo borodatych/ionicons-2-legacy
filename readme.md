@@ -1,5 +1,6 @@
 # Ionicons
 
+COMING SOON.
 
 The premium icon font for [Ionic](http://ionicframework.com/). Designed by [@benjsperry](https://twitter.com/benjsperry).
 
