@@ -14,8 +14,8 @@
 
 @font-face {
   font-family: "Ionicons2";
-  src: url("../assets/fonts/ionicons2.eot?v=2.0.0");
-  src: url("../assets/fonts/ionicons2.eot?v=2.0.0#iefix") format("embedded-opentype"), url("../assets/fonts/ionicons2.ttf?v=2.0.0") format("truetype"), url("../assets/fonts/ionicons2.woff?v=2.0.0") format("woff"), url("../assets/fonts/ionicons2.svg?v=2.0.0#Ionicons") format("svg");
+  src: url("../fonts/ionicons2.eot?v=2.0.0");
+  src: url("../fonts/ionicons2.eot?v=2.0.0#iefix") format("embedded-opentype"), url("../fonts/ionicons2.ttf?v=2.0.0") format("truetype"), url("../fonts/ionicons2.woff?v=2.0.0") format("woff"), url("../fonts/ionicons2.svg?v=2.0.0#Ionicons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
