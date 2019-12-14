@@ -1,6 +1,6 @@
-# Ionicons 2 Legacy
+# Ionicons v2
 
-Ionicicons 2 Legacy allows you to use Ionicons 2.0.1 alongside Ionicons 3+ in Ionic 2/3+ projects.
+Ionicicons v2 allows you to use Ionicons 2.0.1 alongside Ionicons 3+ in Ionic 2/3+ projects.
 
 The premium icon font for [Ionic](http://ionicframework.com/). Designed by [@benjsperry](https://twitter.com/benjsperry).
 
@@ -12,24 +12,40 @@ We intend for this icon pack to be used with [Ionic](http://ionicframework.com/)
 
 ## Adding to an Ionic 2/3+ project
 
-Install Ionicons 2 Legacy:
+Install Ionicons v2:
 
-    npm install ionicons-2-legacy
+    npm install --save-dev ionicons-v2
 
 Add to copy.config.js:
 
-    copyIonicons2LegacyFonts: {
-        src: ['{{ROOT}}/node_modules/ionicons-2-legacy/fonts/**/*'],
+    copyIonicons2Fonts: {
+        src: ['{{ROOT}}/node_modules/ionicons-v2/fonts/**/*'],
         dest: '{{WWW}}/assets/fonts'
       },
-    copyIonicons2LegacyCss: {
-        src: '{{ROOT}}/node_modules/ionicons-2-legacy/css/ionicons-2-legacy.css',
+    copyIonicons2Css: {
+        src: '{{ROOT}}/node_modules/ionicons-v2/css/ionicons-v2.css',
         dest: '{{BUILD}}'
     }
 
 Add to index.html:
 
-    <link href="build/ionicons-2-legacy.css" rel="stylesheet">
+    <link href="build/ionicons-v2.css" rel="stylesheet">
+
+
+## Adding to Laravel project
+
+Install Ionicons v2:
+
+    npm install --save-dev ionicons-v2
+
+Add to resources/sass/app.scss:
+
+    // Ionicons v2
+    @import '~ionicons-2-legacy/css/ionicons-v2.css';
+
+Build:  
+
+    npm run poduction
 
 
 ## HTML Example
@@ -41,4 +57,4 @@ You can use [ionicons.com](http://ionicons.com) to easily find the icon you want
 
 ## License
 
-Ionicons 2 Legacy is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Ionicons v2 is licensed under the [MIT license](http://opensource.org/licenses/MIT).
